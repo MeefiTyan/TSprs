@@ -1,0 +1,29 @@
+{
+  "name": "tsprs",
+  "version": "1.0.0",
+  "description": "Template project with HTML/CSS and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "live-server site --port=5500 --open=./index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeefiTyan/TSprs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeefiTyan/TSprs/issues"
+  },
+  "homepage": "https://MeefiTyan.github.io/TSprs",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "live-server": "^1.2.2",
+    "typescript": "^5.9.3"
+  }
+}
